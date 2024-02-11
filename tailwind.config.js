@@ -12,7 +12,11 @@ module.exports = {
       'lightGray':'#F4F4F4',
       'darkGray':'#DFDFDF',
     },
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'homeHeaderBg': "url('./assets/headerBg.png')",
+      },
+    },
   },
   plugins: [],
 }

@@ -8,7 +8,7 @@ const list2 = ['Style Guide', 'Instruction','License', 'changelog', 'Error 404',
 
 export default function Footer() {
   return (
-    <div className='flex flex-col px-5 py-10 bg-black lg:px-20 md:px-10 mt-[50px] text-white gap-6 '>
+    <div className='flex flex-col gap-6 px-5 py-10 text-white bg-black lg:px-20 md:px-10 '>
       <div className='flex flex-wrap justify-between max-md:gap-y-10'>
         <div className=' max-w-[300px]'>
           <img src={logo} alt='logo' className='h-[25px] mb-3'/> 
