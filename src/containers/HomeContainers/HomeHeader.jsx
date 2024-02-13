@@ -13,7 +13,7 @@ export default function HomeHeader() {
         <div className='flex flex-col gap-8 max-lg:max-w-[350px] max-w-[450px]'>
           <h1 className='xl:text-5xl font-semibold xl:leading-[54px] text-3xl'>Ready to take your <br/><span className=' text-lightGreen'>Business Growth </span><br/>to the next level?</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit- et utmassa libero egestas malesuada viverra gravida libero cursus nulla leo pulvinar.</p>
-          <FreeTrailButton />
+          <FreeTrailButton bgColor='bg-white' textColor='text-black' />
         </div>
         <div className='border-2 rounded-full p-7 border-lightGreen max-md:p-5'>
           <div className='border rounded-full p-7 border-lightGray max-md:p-5'>

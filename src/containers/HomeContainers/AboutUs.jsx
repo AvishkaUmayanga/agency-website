@@ -32,7 +32,7 @@ export default function AboutUs() {
            <p className='text-sm '>Revenue generated</p>
          </div>
         </div>
-        <FreeTrailButton />
+        <FreeTrailButton bgColor='bg-white' textColor='text-black'/>
       </motion.div>
     </div>
   )
