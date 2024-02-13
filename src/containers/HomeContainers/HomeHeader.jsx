@@ -1,10 +1,10 @@
 import React from 'react'
-import { FaCircleChevronRight } from "react-icons/fa6";
 import headerImg from '../../assets/home_header.jpg'
 import greenishImg from  '../../assets/greenish.png'
 import automationImg from '../../assets/automation.png'
 import leafeImg from '../../assets/leafe.png'
 import mindfulnessImg from '../../assets/mindfulness.png'
+import FreeTrailButton from '../../components/FreeTrailButton';
 
 export default function HomeHeader() {
   return (
@@ -13,9 +13,7 @@ export default function HomeHeader() {
         <div className='flex flex-col gap-8 max-lg:max-w-[350px] max-w-[450px]'>
           <h1 className='xl:text-5xl font-semibold xl:leading-[54px] text-3xl'>Ready to take your <br/><span className=' text-lightGreen'>Business Growth </span><br/>to the next level?</h1>
           <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit- et utmassa libero egestas malesuada viverra gravida libero cursus nulla leo pulvinar.</p>
-          <button type="submit" className='py-1 duration-150 bg-white text-black rounded-full hover:scale-105 max-w-[170px] flex items-center gap-[6px] text-sm justify-center'>
-            <FaCircleChevronRight className='text-base '/>Start Your Free Trail
-          </button>
+          <FreeTrailButton />
         </div>
         <div className='border-2 rounded-full p-7 border-lightGreen max-md:p-5'>
           <div className='border rounded-full p-7 border-lightGray max-md:p-5'>
