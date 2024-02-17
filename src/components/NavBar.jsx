@@ -25,9 +25,9 @@ export default function NavBar() {
       </div>
       <div className={`${isMenuOpen ? 'flex justify-center py-5 bg-black ' : ' -translate-y-full'} duration-500 fixed right-0 left-0 z-40 rounded-b-2xl mt-[30px]`}>
         <ul className='flex flex-col items-center gap-5 font-semibold text-white '>
-          <NavLink to='/' className={({ isActive }) => (isActive ? activeLink : inActive) }><li>Home</li></NavLink>
-          <NavLink to='/about' className={({ isActive }) => (isActive ? activeLink : inActive) }><li>About</li></NavLink>
-          <NavLink to='/contact' className={({ isActive }) => (isActive ? activeLink : inActive) }><li>Contact Us</li></NavLink>
+          <NavLink to='/' className={({ isActive }) => (isActive ? activeLink : inActive) } onClick={toggleMenu}><li>Home</li></NavLink>
+          <NavLink to='/about' className={({ isActive }) => (isActive ? activeLink : inActive) } onClick={toggleMenu}><li>About</li></NavLink>
+          <NavLink to='/contact' className={({ isActive }) => (isActive ? activeLink : inActive) } onClick={toggleMenu}><li>Contact Us</li></NavLink>
           <li><button type='button' className='px-2 py-1 text-black duration-300 bg-white rounded-full hover:scale-105'>Get In Touch</button></li>
         </ul>
     </div>

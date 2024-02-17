@@ -64,7 +64,7 @@ export default function OurMission() {
             whileInView={{x:[100,0], opacity:[0,1]}}
             transition={{duration:0.75}}
             className='flex flex-col justify-between '>
-            <div className='flex justify-center p-3 bg-white rounded-xl w-[180px] text-black flex-col text-center -translate-x-3 translate-y-10 max-md:z-10'>
+            <div className='flex justify-center p-3 bg-white rounded-xl w-[180px] text-black flex-col text-center -translate-x-3 translate-y-10 max-md:z-10 shadow-md shadow-lightBlack'>
               <p>Team Members</p>
               <img src={teamMembers} alt='team members' className='h-[30px] '/>
             </div>
