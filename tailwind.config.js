@@ -15,6 +15,7 @@ module.exports = {
     extend: {
       backgroundImage: {
         'homeHeaderBg': "url('./assets/headerBg.png')",
+        'garyStyledBg': "url('./assets/grayBg.png')"
       },
     },
   },
